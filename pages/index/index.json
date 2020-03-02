@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "s-table": "../../table/index"
+  },
+  "navigationBarBackgroundColor": "#0094aa"
+  
+}

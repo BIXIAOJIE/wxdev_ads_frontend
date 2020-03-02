@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="top left">
+  <button bindtap="jumpToCustomer">查看</button>
+  <button bindtap="jumpToCustomerPost">添加</button>
+</view>
