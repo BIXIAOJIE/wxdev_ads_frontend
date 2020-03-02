@@ -14,7 +14,7 @@
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
 		"checkInvalidKey": true,
-		"checkSiteMap": true,
+		"checkSiteMap": false,
 		"uploadWithSourceMap": true,
 		"babelSetting": {
 			"ignore": [],
@@ -25,7 +25,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wx1bf9893d3fe79952",
-	"projectname": "%E7%88%B1%E5%BE%B7%E7%94%9F%E5%A6%87%E4%BA%A7%E5%8C%BB%E9%99%A2",
+	"projectname": "wxdev_ads_frontend",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

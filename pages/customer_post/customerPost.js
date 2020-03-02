@@ -21,7 +21,7 @@ Page({
     params.openId = store.getItem("openId"),
 
     wx.request({
-      url: App.config.baseApi +"/api/mp/customerPost",
+      url: App.config.baseApi +"/api/customer/customerPost",
       method:"post",
       data:params,
       success:(data)=>{
@@ -31,12 +31,6 @@ Page({
         console.log('complete')
       }
     },
-    wx.reLaunch({
-      url: '/pages/customer',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
     )
 
 

@@ -5,9 +5,7 @@ let Api = app.Api
 
 Page({
   data: {
-    openId: store.getItem("openId"),
-    isBindName:store.getItem("isBindName")
-    
+    openId: store.getItem("openId"),    
   },
   onLoad: function () {
     // 判断用户是否登录

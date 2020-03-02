@@ -1,6 +1,6 @@
 module.exports = {
-  getSession: "/api/mp/getSession",
+  getSession: "/api/customer/getSession",
   login: "/api/mp/login",
   getUserNameBind:"/api/mp/getUserNameBind",
-  getSimpleData:"/api/mp/getSimpleData"
+  getSimpleData:"/api/customer/getSimpleData"
 }
